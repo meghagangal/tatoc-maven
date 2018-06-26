@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10301" started-at="2018-06-26T10:49:36Z" finished-at="2018-06-26T10:49:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10301" started-at="2018-06-26T10:49:36Z" finished-at="2018-06-26T10:49:46Z">
+      <class name="com.org.learningMaven.myMavenProject.AssignmentTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.org.learningMaven.myMavenProject.AssignmentTest@6f7fd0e6]" name="launchBrowser" is-config="true" duration-ms="3590" started-at="2018-06-26T10:49:36Z" finished-at="2018-06-26T10:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="Step_01_Launch_Basic_Course()[pri:0, instance:com.org.learningMaven.myMavenProject.AssignmentTest@6f7fd0e6]" name="Step_01_Launch_Basic_Course" duration-ms="479" started-at="2018-06-26T10:49:39Z" finished-at="2018-06-26T10:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_01_Launch_Basic_Course -->
+        <test-method status="PASS" signature="Step_02_Launch_GridGate_Page()[pri:0, instance:com.org.learningMaven.myMavenProject.AssignmentTest@6f7fd0e6]" name="Step_02_Launch_GridGate_Page" duration-ms="484" started-at="2018-06-26T10:49:40Z" depends-on-methods="com.org.learningMaven.myMavenProject.AssignmentTest.Step_01_Launch_Basic_Course" finished-at="2018-06-26T10:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_02_Launch_GridGate_Page -->
+        <test-method status="PASS" signature="Step_03_Launch_Frame_Dungeon_Page()[pri:0, instance:com.org.learningMaven.myMavenProject.AssignmentTest@6f7fd0e6]" name="Step_03_Launch_Frame_Dungeon_Page" duration-ms="1265" started-at="2018-06-26T10:49:40Z" depends-on-methods="com.org.learningMaven.myMavenProject.AssignmentTest.Step_02_Launch_GridGate_Page" finished-at="2018-06-26T10:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_03_Launch_Frame_Dungeon_Page -->
+        <test-method status="PASS" signature="Step_04_Launch_Drag_Around_page()[pri:0, instance:com.org.learningMaven.myMavenProject.AssignmentTest@6f7fd0e6]" name="Step_04_Launch_Drag_Around_page" duration-ms="648" started-at="2018-06-26T10:49:42Z" depends-on-methods="com.org.learningMaven.myMavenProject.AssignmentTest.Step_03_Launch_Frame_Dungeon_Page" finished-at="2018-06-26T10:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_04_Launch_Drag_Around_page -->
+        <test-method status="PASS" signature="Step_05_Launch_Pop_Up_Windows_page()[pri:0, instance:com.org.learningMaven.myMavenProject.AssignmentTest@6f7fd0e6]" name="Step_05_Launch_Pop_Up_Windows_page" duration-ms="1046" started-at="2018-06-26T10:49:42Z" depends-on-methods="com.org.learningMaven.myMavenProject.AssignmentTest.Step_04_Launch_Drag_Around_page" finished-at="2018-06-26T10:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_05_Launch_Pop_Up_Windows_page -->
+        <test-method status="PASS" signature="Step_06_Launch_Cookie_Handling_Page()[pri:0, instance:com.org.learningMaven.myMavenProject.AssignmentTest@6f7fd0e6]" name="Step_06_Launch_Cookie_Handling_Page" duration-ms="594" started-at="2018-06-26T10:49:43Z" depends-on-methods="com.org.learningMaven.myMavenProject.AssignmentTest.Step_05_Launch_Pop_Up_Windows_page" finished-at="2018-06-26T10:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_06_Launch_Cookie_Handling_Page -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.learningMaven.myMavenProject.AssignmentTest@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="2083" started-at="2018-06-26T10:49:44Z" finished-at="2018-06-26T10:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.org.learningMaven.myMavenProject.AssignmentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

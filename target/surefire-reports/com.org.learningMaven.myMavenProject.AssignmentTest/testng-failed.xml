@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.org.learningMaven.myMavenProject.AssignmentTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.org.learningMaven.myMavenProject.AssignmentTest">
+        <methods>
+          <include name="Step_01_Launch_Basic_Course"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.org.learningMaven.myMavenProject.AssignmentTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.org.learningMaven.myMavenProject.AssignmentTest] -->
